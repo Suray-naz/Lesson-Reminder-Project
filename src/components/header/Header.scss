@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Rubik+Bubbles&display=swap");
+
+
+.navbar{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+      313deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 125, 45, 1) 100%
+    );
+
+    .logo{
+        width: 350px;
+    }
+
+
+    h1{
+        font-family: "Rubik Bubbles", cursive;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+      /* Adjust margin and padding for smaller screens */
+      margin-top: 0.5rem;
+      padding: 0.3rem;
+    }
+  
+    .logo {
+      /* Reduce the width of the logo for smaller screens */
+      width: 250px;
+    }
+  
+    h1 {
+      /* Decrease font size for smaller screens */
+      font-size: 2rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  

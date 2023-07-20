@@ -1,0 +1,21 @@
+@import "./components/header/Header.scss";
+@import "./components/main/LessonCards.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+  background: rgb(23, 148, 204);
+  background: linear-gradient(
+    335deg,
+    rgba(23, 148, 204, 1) 5%,
+    rgba(98, 6, 45, 1) 68%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
